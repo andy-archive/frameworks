@@ -4,7 +4,7 @@
 //
 //  Created by Taekwon Lee on 2023/04/23.
 
-// This is a SwiftUI Tutorial from Sean Allen
+// This project referred to Sean Allen's YouTube and made it in my style.
 // https://www.youtube.com/watch?v=HXoVSbwWUIk&t=15s
 
 import SwiftUI
@@ -27,9 +27,20 @@ struct ContentView: View {
                 Text("Seoul, Korea") // Text is a View!
                     .font(.system(size: 32, weight: .medium, design: .default)) // one of modifiers
                     .foregroundColor(.white)
-                    .padding(50)
+                    .padding(30)
     //                .background(Color.green)
     //                .frame(width: 200, height: 200)
+                VStack(spacing: 30) {
+                    Image(systemName: "sun.max.fill") // from SF Symbols
+                        .renderingMode(.original) // returns original image
+                        .resizable() // make the image resizable
+                        .aspectRatio(contentMode: .fit) // keep the aspect ratio but fits in frame
+                        .frame(width: 120, height: 120)
+//                        .padding(10)
+                    Text("15.6°")
+                        .font(.system(size: 50))
+                        .foregroundColor(.white)
+                }
                 Spacer()
             }
         }
