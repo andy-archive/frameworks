@@ -54,6 +54,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="mainButton" destination="NbY-TB-d0q" id="12f-vn-NrL"/>
                         <outlet property="mainLabel" destination="dSr-qh-VUh" id="6PV-lk-gXh"/>
                     </connections>
                 </viewController>
