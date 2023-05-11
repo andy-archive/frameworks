@@ -9,13 +9,21 @@ import UIKit
 
 class ViewController: UIViewController { // ViewController 클래스
 
-    // control + drag
+    // control + drag로 생성
+    // Attribute: Interface Builder의 Outlet (배출할 수단)
     @IBOutlet weak var mainLabel: UILabel! // 변수 선언
     
+    // 앱 실행 시 초기 화면을 나타내는 함수
     override func viewDidLoad() { // 함수 실행
         super.viewDidLoad()
+        
+        mainLabel.text = "Heyyy" // 기존의 Interface Builder를 덮어 쓴다.
+        
+        mainLabel.backgroundColor = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
+
     }
 
+    // Interface Builder의 Action 
     // Type: UIButton
     // Event: Touch Up Inside
     @IBAction func pressedButton(_ sender: UIButton) {
