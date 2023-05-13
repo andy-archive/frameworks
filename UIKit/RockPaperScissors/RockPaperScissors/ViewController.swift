@@ -16,21 +16,24 @@ class ViewController: UIViewController {
     @IBOutlet weak var userImageView: UIImageView!
     
     @IBOutlet weak var computerChoiceLabel: UILabel!
-    @IBOutlet weak var userChoiceView: UILabel!
+    @IBOutlet weak var userChoiceLabel: UILabel!
     
+    // 앱의 첫 화면에 실행되는 함수
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        computerImageView.image = #imageLiteral(resourceName: "rock-paper-scissors")
+        userImageView.image = UIImage(named: "rock-paper-scissors.png")
+        
+        computerChoiceLabel.text = "READY"
+        userChoiceLabel.text = "READY"
     }
-
     
     @IBAction func rpsButtonTapped(_ sender: UIButton) {
     }
     
-    
     @IBAction func resetButtonTapped(_ sender: UIButton) {
     }
-    
     
     @IBAction func selectButtonTapped(_ sender: Any) {
     }

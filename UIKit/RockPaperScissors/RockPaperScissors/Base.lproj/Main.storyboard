@@ -95,7 +95,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="rpsButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mkK-lp-tVP"/>
+                                            <action selector="rpsButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8bA-Vm-05j"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zg-1O-ReV">
@@ -107,7 +107,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="rpsButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lfs-QS-5ML"/>
+                                            <action selector="rpsButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vCo-4g-dav"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DsN-Fn-ErI">
@@ -119,7 +119,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="rpsButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yZd-WS-LHp"/>
+                                            <action selector="rpsButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZpN-Vk-9uK"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -188,7 +188,7 @@
                         <outlet property="computerChoiceLabel" destination="o0l-5k-V5P" id="A33-Ew-Kus"/>
                         <outlet property="computerImageView" destination="Gup-tY-cPJ" id="vdk-2c-iXM"/>
                         <outlet property="mainLabel" destination="HNi-ab-fNB" id="JXy-Fg-Ebf"/>
-                        <outlet property="userChoiceView" destination="M7a-N4-9nX" id="2aM-At-mdq"/>
+                        <outlet property="userChoiceLabel" destination="M7a-N4-9nX" id="jn3-1z-dmN"/>
                         <outlet property="userImageView" destination="GgI-In-BVW" id="V78-M5-qUe"/>
                     </connections>
                 </viewController>
