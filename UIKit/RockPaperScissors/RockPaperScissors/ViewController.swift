@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var computerChoiceLabel: UILabel!
     @IBOutlet weak var userChoiceLabel: UILabel!
     
+    var userChoice: Rps = Rps.rock
+    
     // 앱의 첫 화면에 실행되는 함수
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +32,19 @@ class ViewController: UIViewController {
     }
     
     @IBAction func rpsButtonTapped(_ sender: UIButton) {
+        //guard let title = sender.currentTitle else { return }
+        let title = sender.currentTitle!
+        
+        switch title {
+        case "ROCK":
+            userChoice = Rps.rock
+        case "PAPER":
+            userChoice = Rps.paper
+        case "SCISSORS":
+            userChoice = Rps.scissors
+        default:
+            break
+        }
     }
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
