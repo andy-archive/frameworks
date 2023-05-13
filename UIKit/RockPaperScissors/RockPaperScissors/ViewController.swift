@@ -49,6 +49,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
+        mainLabel.text = "Choose One!"
+        
+        computerImageView.image = UIImage(named: "rock-paper-scissors.png")
+        userImageView.image = UIImage(named: "rock-paper-scissors.png")
+        
+        computerChoiceLabel.text = "READY"
+        userChoiceLabel.text = "READY"
     }
     
     @IBAction func selectButtonTapped(_ sender: UIButton) {
